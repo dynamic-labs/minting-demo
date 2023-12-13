@@ -3,13 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@dynamic-labs/ethereum": "1.0.0",
+    "@dynamic-labs/ethereum-aa": "1.0.0",
+    "@dynamic-labs/sdk-react-core": "1.0.0",
+    "@dynamic-labs/utils": "1.0.0",
+    "@dynamic-labs/wagmi-connector": "^1.0.0",
+    "@dynamic-labs/wallet-book": "1.0.0",
+    "@dynamic-labs/wallet-connector-core": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto": "npm:crypto-browserify",
+    "http": "npm:http-browserify",
+    "https": "npm:https-browserify",
+    "https-browserify": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "stream": "npm:stream-browserify",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "viem": "^1.19.13",
+    "wagmi": "^1.4.11",
+    "zlib": "npm:browserify-zlib"
+  },
+  "overrides": {
+    "typescript": "4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
