@@ -27,6 +27,7 @@
     "zlib": "npm:browserify-zlib"
   },
   "overrides": {
+    "nth-check": "2.1.1",
     "typescript": "4.9.5"
   },
   "scripts": {
